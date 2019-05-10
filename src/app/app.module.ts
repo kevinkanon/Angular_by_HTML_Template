@@ -5,12 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContentComponent } from './content/content.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { FooterComponent } from './footer/footer.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { ClientsComponent } from './clients/clients.component';
+import { HeaderComponent } from './header/header.component';
+import { SocialComponent } from './social/social.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroComponent,
-    GalleryComponent
+    GalleryComponent,
+    ContentComponent,
+    TestimonialComponent,
+    FooterComponent,
+    PricingComponent,
+    ClientsComponent,
+    HeaderComponent,
+    SocialComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
