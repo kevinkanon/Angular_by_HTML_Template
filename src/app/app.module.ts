@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ConfigService } from './services/config.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,24 +16,24 @@ import { SocialComponent } from './social/social.component';
 import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    IntroComponent,
-    GalleryComponent,
-    ContentComponent,
-    TestimonialComponent,
-    FooterComponent,
-    PricingComponent,
-    ClientsComponent,
-    HeaderComponent,
-    SocialComponent,
-    NavigationComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        IntroComponent,
+        GalleryComponent,
+        ContentComponent,
+        TestimonialComponent,
+        FooterComponent,
+        PricingComponent,
+        ClientsComponent,
+        HeaderComponent,
+        SocialComponent,
+        NavigationComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule
+    ],
+    providers: [ConfigService],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -780,9 +780,6 @@ h6 {
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
 
-#banner {
-    background-size: cover;
-}
 
 #banner-content.row {
     padding-top: 170px;
@@ -2465,7 +2462,9 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background-image: url("assets/images/banner-images/banner-image-1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
     background-size:cover;
 }
 
