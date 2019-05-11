@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 
 export class NavigationComponent implements OnInit {
 
-  activetab: string = "home";
+    activetab: string = "home";
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() { }
+    ngOnInit() { }
 
-  getActiveTab(tabname: string) 
-  {
-    this.activetab = tabname;
-  }
+    getActiveTab(tabname: string) 
+    {
+      this.activetab = tabname;
+    }
 
 }
