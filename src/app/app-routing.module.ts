@@ -10,6 +10,7 @@ import { ClientsComponent } from './clients/clients.component';
 import { HeaderComponent } from './header/header.component';
 import { BlogComponent } from './blog/blog.component';
 import { ArticleComponent } from './article/article.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Home', pathMatch: 'full' },
@@ -22,6 +23,8 @@ const routes: Routes = [
   { path: 'Pricing', component: PricingComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'article/:id', component: ArticleComponent },
+  { path: '404', component: NotfoundComponent },
+  { path: '**', redirectTo: '/404' },
   
 ];
 

@@ -69,6 +69,8 @@ a {
     transition: opacity 0.3s ease-out;
 }
 
+li { list-style-type: none}
+
 iframe {
     border: 0 !important;
 }
@@ -2224,10 +2226,10 @@ blockquote {
 
     #header aside {
         display: inline-block;
-        position: absolute;
+        position: static;
         top: 40px;
         right: 60px;
-        padding-top:3px;
+        padding-top:13px;
         padding-right: 5px;
     }
 
@@ -2292,10 +2294,10 @@ blockquote {
     /*-----------------Header Elements-----------------*/
     #header aside {
         display: inline-block;
-        position: absolute;
+        position: static;
         top: 40px;
         right: 60px;
-        padding-top:3px;
+        padding-top:13px;
         padding-right: 5px;
     }
 
