@@ -25,7 +25,6 @@ const routes: Routes = [
   { path: 'article/:id', component: ArticleComponent },
   { path: '404', component: NotfoundComponent },
   { path: '**', redirectTo: '/404' },
-  
 ];
 
 

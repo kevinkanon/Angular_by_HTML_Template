@@ -6,9 +6,9 @@
 }
 
 .primary-color, 
-.primary-color 
+.primary-color,
 .section-title, 
-.primary-color 
+.primary-color,
 .section-subtitle, 
 .featured .post, 
 .featured .post p {
@@ -33,9 +33,4 @@
 
 .post-featured-image span { position: absolute;  top: 0;  left: -20px;  font-size: 22px; }
 
-.post  p {
-  font-style:italic;
-  color:#b4b4b4;
-  line-height:auto;
-  margin:0;
-}
+.post  p { font-style:italic; color:#b4b4b4; line-height:auto; margin:0; }

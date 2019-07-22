@@ -12,8 +12,7 @@ export class PaginationComponent implements OnInit {
 
     constructor() { }
 
-    ngOnInit() {
-    }
+    ngOnInit() { }
 
     setCurrentPage(pageNumber: number)
     {

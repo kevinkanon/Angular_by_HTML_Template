@@ -11,14 +11,8 @@ export class PagerService {
         let totalPage = Math.ceil(totalItems / pageSize);
 
         // Ensure that this do not fail out of bounds
-        if (currentPage < 1)
-        {
-            currentPage = 1
-        }
-        else if (currentPage > totalPage)
-        {
-            currentPage = totalPage;
-        }
+        if (currentPage < 1) { currentPage = 1 }
+        else if (currentPage > totalPage) { currentPage = totalPage; }
         ////////////////////////////////////
 
         let startPage: number;
