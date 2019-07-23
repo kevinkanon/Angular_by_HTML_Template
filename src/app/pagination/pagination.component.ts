@@ -10,9 +10,13 @@ export class PaginationComponent implements OnInit {
     @Input() pager;
     @Output() setPage: EventEmitter<any> = new EventEmitter<any>() ;
 
-    constructor() { }
+    constructor() { 
+        
+    }
 
-    ngOnInit() { }
+    ngOnInit() { 
+
+    }
 
     setCurrentPage(pageNumber: number)
     {
